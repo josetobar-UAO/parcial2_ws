@@ -1,0 +1,1 @@
+ros2 topic pub -r 50 /moteus/id_3/cmd_position moteus_msgs/msg/PositionCommand "{position: [1], velocity_limit: [1.0], accel_limit: [0.5], maximum_torque: [0.5], watchdog_timeout: [.NAN]}"
